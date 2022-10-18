@@ -1,0 +1,88 @@
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url("./fonts/PlayfairDisplay-VariableFont_wght.ttf");
+  font-weight: 700;
+  background: white;
+}
+html, body {
+    font-family: 'PlayfairDisplay', sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 70%;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.navbar-link {
+  color: #828282;
+  text-decoration: none;
+}
+.navbar-link:hover {
+  color: #070707;
+  font-weight: 700;
+}
+hr {
+  width: 93%;
+  border: 1px solid #828282;
+}
+.info {
+  padding-left: 2rem;
+  width: 68%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  align-self: flex-end;
+  margin-bottom: 2rem;
+}
+.expirience {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #070707;
+  align-self: flex-end;
+  margin-bottom: 2.5rem;
+}
+.language {
+  transform: rotate(-90deg);
+  align-self: flex-end;
+  color: #828282;
+  margin-bottom: 3.3rem;
+}
+.ua-lang, .eng-lang{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.ua-lang:hover {
+  color: black;
+  font-weight: 700;
+}
+.eng-lang:hover {
+    color: black;
+    font-weight: 700;
+}
+.image {
+  text-align: center;
+}
+.text {
+    font-weight: bolder;
+    color: black;
+}
